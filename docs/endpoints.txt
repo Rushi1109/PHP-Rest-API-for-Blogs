@@ -1,0 +1,32 @@
+1. Endpoint for Creating a Post:
+   - Endpoint: `POST /api/posts/create.php`
+   - Script: `create.php`
+   - Method: `POST`
+   - Usage: The create endpoint is implied by the filename `create.php`, and it is accessed using the HTTP POST method. The endpoint is used to create a new blog post by sending a POST request to this script.
+
+2. Endpoint for Reading All Posts:
+   - Endpoint: `GET /api/posts/read.php`
+   - Script: `read.php`
+   - Method: `GET`
+   - Usage: The read endpoint is implied by the filename `read.php`, and it is accessed using the HTTP GET method. The endpoint is used to retrieve all blog posts by sending a GET request to this script.
+
+3. Endpoint for Reading a Single Post:
+   - Endpoint: `GET /api/posts/single.php?id={post_id}`
+   - Script: `single.php`
+   - Method: `GET`
+   - Usage: The single endpoint is implied by the filename `single.php`, and it is accessed using the HTTP GET method. The endpoint is used to retrieve a single blog post by sending a GET request with the `id` parameter specifying the ID of the post to be fetched.
+
+4. Endpoint for Updating a Post:
+   - Endpoint: `PUT /api/posts/update.php`
+   - Script: `update.php`
+   - Method: `PUT`
+   - Usage: The update endpoint is implied by the filename `update.php`, and it is accessed using the HTTP PUT method. The endpoint is used to update an existing blog post by sending a PUT request to this script.
+
+5. Endpoint for Deleting a Post:
+   - Endpoint: `DELETE /api/posts/delete.php`
+   - Script: `delete.php`
+   - Method: `DELETE`
+   - Usage: The delete endpoint is implied by the filename `delete.php`, and it is accessed using the HTTP DELETE method. The endpoint is used to delete a blog post by sending a DELETE request with the `id` parameter specifying the ID of the post to be deleted.
+
+
+The endpoints for the categories are same as posts.
